@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    android:orientation="vertical"
+    >
+    <com.loft_9086.tx.v2.view.TitleView
+        android:id="@+id/title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/et_des"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="10dp"
+            android:hint="请输入反馈内容"
+            android:gravity="top|left"
+            android:padding="5dp"
+            android:textColor="@color/title_bg_color"
+            android:background="@drawable/selector_large_edit_dialog_white"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:padding="30dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:background="@drawable/selector_btn_submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_default_size"
+            android:gravity="center"
+            android:text="提交"
+            android:id="@+id/tv_submit_ok"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

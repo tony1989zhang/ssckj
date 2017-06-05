@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.loft_9086.tx.v2.view.TAGView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tag_view"
+    android:layout_width="15dp"
+    android:layout_height="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:tag_text_size="12sp"
+    app:tag_color="#ff9066"
+    android:layout_margin="3dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    app:tag_text="0"
+    app:tag_as_circle="true" />
+

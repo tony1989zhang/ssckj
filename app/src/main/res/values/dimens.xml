@@ -1,0 +1,40 @@
+<resources>
+    <dimen name="navdrawer_width">260dp</dimen>
+
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_shadow_size">8dp</dimen>
+
+    <dimen name="fab_elevation_lollipop">4dp</dimen>
+
+
+    <dimen name="title_height">35dp</dimen>
+    <dimen name="title_text_size">20sp</dimen>
+    <dimen name="title_right_text_size">15sp</dimen>
+    <dimen name="page_adapter_loading_height">45dip</dimen>
+    <dimen name="map_hospital_detail_img_size">90dip</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="title_text_large">17sp</dimen>
+    <dimen name="text_large">15sp</dimen>
+    <dimen name="text_middle">13sp</dimen>
+
+    <dimen name="text_larght_size">17sp</dimen>
+    <dimen name="text_default_size">15sp</dimen>
+    <dimen name="text_middle_size">13sp</dimen>
+    <dimen name="text_smail_size">11sp</dimen>
+
+
+    <dimen name="parallax_ad_height_size">190dp</dimen>
+    <dimen name="title_larght_text_size">24sp</dimen>
+    <dimen name="home_gv_height">369dp</dimen>
+
+
+    <dimen name="margin_top_height">10dp</dimen>
+    <dimen name="margin_bottom_height">10dp</dimen>
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="padding_right">10dp</dimen>
+
+    <dimen name="text_big">17sp</dimen>
+
+    <dimen name="radius">5dp</dimen>
+</resources>

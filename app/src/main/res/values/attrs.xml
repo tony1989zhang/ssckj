@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorPressed" format="color" />
+        <attr name="fab_colorNormal" format="color" />
+        <attr name="fab_colorRipple" format="color" />
+        <attr name="fab_shadow" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DefaultPageIndicator">
+        <!-- indicator width, unit dp,default 6dp -->
+        <attr name="pi_width" format="dimension"/>
+        <!-- indicator height,unit dp,default 6dp -->
+        <attr name="pi_height" format="dimension"/>
+        <!-- indicator space between two indicators,unit dp,default 6dp -->
+        <attr name="pi_gap" format="dimension"/>
+        <!-- width of the stroke used to draw the indicators,default 0dp -->
+        <attr name="pi_strokeWidth" format="dimension"/>
+        <!-- color of the stroke used to draw the indicators,default "#ffffff" -->
+        <attr name="pi_strokeColor" format="color"/>
+        <!-- Whether or not the selected indicator snaps to the indicators,default false -->
+        <attr name="pi_isSnap" format="boolean"/>
+        <!-- indicator select color ,default "#ffffff" -->
+        <attr name="pi_selectColor" format="color"/>
+        <!-- indicator unselect color ,default "#88ffffff"  -->
+        <attr name="pi_unselectColor" format="color"/>
+        <!-- indicator corner raduis ,unit dp,default 3dp -->
+        <attr name="pi_cornerRadius" format="dimension"/>
+        <!-- indicator select drawable resource -->
+        <attr name="pi_selectRes" format="reference"/>
+        <!-- indicator unselect drawable resource -->
+        <attr name="pi_unselectRes" format="reference"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="CountDownView">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="roundWidth" format="dimension" />
+        <attr name="text" format="string" />
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color" />
+        <attr name="countdownTime" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="TAGView">
+        <attr name="tag_icon" format="reference"/>
+        <attr name="tag_text" format="string"/>
+        <attr name="tag_text_color" format="color"/>
+        <attr name="tag_text_size" format="dimension"/>
+        <attr name="tag_stroke_width" format="dimension"/>
+        <attr name="tag_color" format="color"/>
+        <attr name="tag_radius" format="dimension"/>
+        <attr name="tag_image_width" format="dimension"/>
+        <attr name="tag_divider" format="dimension"/>
+        <attr name="tag_padding" format="dimension"/>
+        <attr name="tag_padding_top" format="dimension"/>
+        <attr name="tag_padding_bottom" format="dimension"/>
+        <attr name="tag_padding_left" format="dimension"/>
+        <attr name="tag_padding_right" format="dimension"/>
+        <attr name="tag_as_circle" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="TimeCountDownView">
+        <attr name="countDownTime"  format="float"/>
+        <attr name="count_down_format"  format="string"/>
+    </declare-styleable>
+
+</resources>

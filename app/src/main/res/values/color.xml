@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#bf360c</color>
+    <color name="ripple_red">#ffbf5232</color>
+
+    <color name="material_teal">@color/material_deep_teal_500</color>
+    <color name="ripple_material_teal">#ff149691</color>
+//R.color.material_deep_teal_500
+    <!--material_deep_teal_500-->
+    <color name="blue">@color/material_deep_teal_500</color>
+    <!--<color name="blue">@color/material_deep_teal_500</color>-->
+    <color name="grey">@color/material_blue_grey_800</color>
+    <color name="light">@color/primary_material_light</color>
+
+
+    <!--定义默认的颜色-->
+    <color name="colorPrimary">@color/material_deep_teal_500</color>
+    <color name="colorPrimaryDark">@color/material_deep_teal_500</color>
+    <!--<color name="colorPrimary">@color/material_deep_teal_500</color>-->
+    <!--<color name="colorPrimaryDark">@color/material_deep_teal_500</color>-->
+
+    <color name="windowBackgroundColor">#333333</color>
+    <color name="black_translucent">#80000000</color>
+
+    <color name="title_bg_color">@color/blue</color>
+    <color name="text_color_off">#ddd</color>
+    <color name="swipe_refrsh_color1">#ff00ddff</color>
+    <color name="swipe_refrsh_color2">#ffffbb33</color>
+    <color name="swipe_refrsh_color3">#ffff4444</color>
+    <color name="swipe_refrsh_color4">#ffaa66cc</color>
+
+    <color name="home_state_red">#D73F3F</color>
+    <color name="home_state_green">#3BCF67</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="divider">#999</color>
+    <color name="default_divider_larght">#F4F5F9</color>
+    <color name="black">#000</color>
+    <color name = "bluetext">#30c7ff</color>
+    <color name="title_column_color">#f8f8f8</color>
+    <color name="title_red">#e83536</color>
+    <color name="title_red_press">#33000000</color>
+
+    <color name="backgroundColor">#50555555</color>
+    <color name="roundColor">#50555555</color>
+    <color name="roundProgressColor">#FF6ADBFE</color>
+    <color name="textColor">#FFFFFF</color>
+
+
+    <color name="white">#FFF</color>
+    <color name="main_color">#f0f0f0</color>
+    <color name="text_default_color">#4b4b4b</color>
+    <color name="text_hint_color">#969696</color>
+    <color name="text_default_yellow">#f0c21f</color>
+
+    <color name="line_hint_color">#cbcbcb</color>
+    <!--fff6f6f6-->
+    <color name="item_list_press">#fff6f6f6</color>
+
+</resources>
